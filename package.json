@@ -1,0 +1,21 @@
+{
+  "name": "10272540_comp3123_assignment1",
+  "version": "1.0.0",
+  "description": "Repository for assignment 1 of comp3123",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "COMP3123",
+    "NodeJS",
+    "Middleware",
+    "endpoints",
+    "routes"
+  ],
+  "author": "Vincent Nhar Calonzo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
