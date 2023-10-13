@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "f53337d9-bcc9-4ab0-95fa-4e4a2a613fd6",
+		"name": "Assignment 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "29842737"
+	},
+	"item": [
+		{
+			"name": "user sign-up",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"vncalonzo\",\r\n    \"email\": \"vnemail@georgebrown.ca\",\r\n    \"password\": \"vnpassword\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/user/signup"
+			},
+			"response": []
+		},
+		{
+			"name": "user log-in",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/login?username=test1&password=test1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"login"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "test1"
+						},
+						{
+							"key": "password",
+							"value": "test1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/emp/employees"
+			},
+			"response": []
+		},
+		{
+			"name": "create new employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/emp/employees"
+			},
+			"response": []
+		},
+		{
+			"name": "get employee by id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update employee",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "delete employee",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

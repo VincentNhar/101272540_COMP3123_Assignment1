@@ -1,2 +1,12 @@
-# 10272540_COMP3123_Assignment1
-Repository for assignment 1 of comp3123
+# COMP3123 - Assignment 1 (FALL 2023)
+
+**Author:** Vincent Nhar Calonzo
+**Student ID:** 101272540
+
+
+
+*WARNING:* 
+	- execute 'npm install express' to install node_modules folder
+
+	- execute 'npm start' to run
+
