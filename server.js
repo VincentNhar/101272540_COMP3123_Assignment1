@@ -26,7 +26,7 @@ app.use("/api/v1",apiv1)
 
 app.route("/")
     .get((req, res) => {
-        res.send("<h1>COMP3123 - Assignment 1</h1>")
+        res.sendFile(__dirname+"/index.html")
     })
 
 app.listen(SERVER_PORT, () =>{

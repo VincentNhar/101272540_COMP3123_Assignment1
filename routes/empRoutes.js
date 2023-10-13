@@ -80,9 +80,6 @@ routes.delete("/employees", async (req,res) => {
 
     try{
         const employee = await EmpModel.findByIdAndDelete(req.query._id)
-        if(!employee){
-            res.status(404).send({message: "Book not found"})
-        }
 
         //no message because HTTP status 204 doesn't send a message back
         res.status(204).send()
